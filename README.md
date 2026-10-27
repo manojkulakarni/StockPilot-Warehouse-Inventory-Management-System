@@ -1,0 +1,2 @@
+# StockPilot-Warehouse-Inventory-Management-System
+StockPilot is a full-stack web application designed to simplify warehouse operations through inventory tracking, stock management, order processing, and RESTful APIs. Built using Java, Spring Boot, Hibernate, MySQL, React, and Vite, it provides an intuitive dashboard to monitor stock levels, manage products, and identify low-stock items efficiently
