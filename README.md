@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StockPilot — Warehouse Inventory Management System
 
 A portfolio-ready warehouse inventory application with a Spring Boot REST API, Hibernate/JPA persistence, MySQL, and a responsive React dashboard.
@@ -107,3 +108,81 @@ POST /api/orders
 
 ## Important notes
 This is a functional learning/demo baseline, not a production-hardened warehouse platform. The frontend's weekly chart uses clearly illustrative sample data; live KPIs, product lists, alerts, movements, and orders come from the backend. Configure credentials securely before sharing or deploying. Seed data is inserted only when the products table is empty.
+=======
+# StockPilot-Warehouse-Inventory-Management-System
+StockPilot is a full-stack web application designed to simplify warehouse operations through inventory tracking, stock management, order processing, and RESTful APIs. Built using Java, Spring Boot, Hibernate, MySQL, React, and Vite, it provides an intuitive dashboard to monitor stock levels, manage products, and identify low-stock items efficiently
+>>>>>>> aa946ff5eea54c544fc194711f746277561afd28
+# StockPilot – Warehouse Inventory Management System
+
+StockPilot is a full-stack web application designed to simplify warehouse operations through inventory tracking, stock management, order processing, and REST APIs.
+
+## Features
+
+- Inventory and product management
+- Stock quantity updates and low-stock monitoring
+- Order processing
+- RESTful API integration
+- Interactive React dashboard
+- MySQL database integration
+
+## Technology Stack
+
+**Backend:** Java, Spring Boot, Spring Data JPA, Hibernate, Maven  
+**Frontend:** React, Vite, JavaScript, HTML, CSS  
+**Database:** MySQL  
+**API:** REST
+
+## Project Structure
+
+```text
+stockpilot/
+├── backend/    # Spring Boot application
+├── frontend/   # React application
+├── README.md
+└── .gitignore
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Java 21
+- MySQL 8
+- Node.js and npm
+- Maven
+
+### Run the Backend
+
+1. Create a MySQL database named `stockpilot`.
+2. Configure your database credentials in the backend configuration.
+3. Open a terminal in the `backend` directory.
+4. Run:
+
+```bash
+mvn spring-boot:run
+```
+
+### Run the Frontend
+
+1. Open another terminal in the `frontend` directory.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Learning Objectives
+
+This project demonstrates full-stack application development, REST API integration, database connectivity, and inventory management workflows.
+
+## Author
+
+Manoj Kulakarni
